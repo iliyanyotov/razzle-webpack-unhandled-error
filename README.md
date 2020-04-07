@@ -10,4 +10,4 @@ The error is now displayed after the applied patch:
 
 ![Image description](screens/after.png)
 
-An issue in the repository will be raised with the applied fixed.
+An pull request in the repository will be created with the applied fixed.

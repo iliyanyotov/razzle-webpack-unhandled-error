@@ -6,10 +6,14 @@
     "start": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "analyze": "BUNDLE_ANALYZE=true razzle build",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "patch-package": "^6.2.2",
+    "postinstall-postinstall": "^2.1.0",
     "razzle": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
